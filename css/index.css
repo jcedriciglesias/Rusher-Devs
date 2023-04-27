@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html,body {
+    font-family: Arial;
+    height: 100vh;
+    scroll-behavior: smooth;
+    transition: 250ms;
+    
+}
+.snap{
+    scroll-snap-type:  y mandatory;
+    scroll-snap-align: start;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    position:sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+   
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav ul li {
+    
+    margin:0px 20px 0px 20px;
+    padding: 5px;
+
+    font-size: 20px;
+}
+nav ul li :hover{
+    color: greenyellow;
+
+    scroll-behavior: smooth ;
+}
+.submenu{
+    display: none;
+}
+nav ul li :hover .submenu{
+    display: block;
+    position:absolute;
+}
+#logo {
+    height: 60px;
+    padding-top: 5px;
+    position: absolute;
+    left: 0;
+}
+#top{
+    height: 650px;
+    background: rgb(255, 255, 255);   
+}
+    .container{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }       
+        #info{
+            height: 600px;
+            width: 40%;
+            margin: 5% 5% 5% 5%;
+            
+        }
+        #info h1{
+            font-size: 25px;
+            letter-spacing: 5px;
+            color: rgb(147 229 8);
+            margin-top: 2%;
+            text-align: center;
+            margin-left: 5%;
+        }
+        #info p{
+            font-weight: bolder;
+            font-size: 50px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin-left: 5%;
+        }
+        
+
+        #carousel{
+            height: 650px;
+            width: 50%;
+            
+        }
+        
+        #c1{
+            height: 500px;
+            
+        }
+
+
+
+
+
+
+#about{
+    height: 700px;
+    background: crimson;
+}
+#contact{
+    height: 700px;
+    background: violet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;  
+    direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    position:absolute;
+    top: 2500px;
+    color :whitesmoke;
+    background-color: rgb(1, 1, 1);
+}
+#foot-con h1{
+    justify-content: center;
+}
+#flogo{
+    height: 100px;
+    width: 150px;
+}
+#fsname{
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: greenyellow;
+    margin-top: 2%;
+    text-align: center;
+    font-weight: bolder;
+}
+section{
+    height: 100%;
+    width: 100%;
+}
